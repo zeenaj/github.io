@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeena Jabsheh | Home | Assignnment 1 </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">Z</div>
+                <div class="logo-text">
+                    <span class="logo-name">Zeena's</span> <br> 
+                    <span class="logo-tagline">Design Diaries</span>
+                </div>
+            </a>
+            
+            <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
+            <label for="menu-checkbox" class="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="resume.html">RESUME</a></li>
+                    <li><a href="contact.html" class="active">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <section class="contact-info">
+                <h2>Get in touch</h2>
+                <p>
+                    Let's connect! Whether you have a project idea or just want to say hello, feel free to reach out.
+                </p>
+                
+                <ul class="contact-details">
+                    <li>
+                        <img src="images/icon-mail.svg">
+                        <span>zeena@design.com</span>
+                    </li>
+                    <li>
+                        <img src="images/icon-phone.svg">
+                        <span>+1 (123) 456-7890</span>
+                    </li>
+                    <li>
+                        <img src="images/icon-location.svg">
+                        <span>Hamilton, Ontario, Canada</span>
+                    </li>
+                </ul>
+                
+                <div class="social-links" style="justify-content: flex-start; margin-top: 2rem;">
+                    <a href="https://facebook.com" class="social-link facebook">
+                        <img src="images/icon-facebook.svg">
+                    </a>
+                    <a href="https://linkedin.com" class="social-link linkedin">
+                        <img src="images/icon-linkedin.svg">
+                    </a>
+                    <a href="https://github.com" class="social-link github">
+                        <img src="images/icon-github.svg">
+                    </a>
+                </div>
+            </section>
+
+            <section class="contact-form-card">
+                <h2> Contact Form </h2>
+                
+                <form method="post">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Inquiry">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project or just say hello..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p> Zeena Jabsheh - Assignement 1 - SEP759 Prototyping Web Applications </p>
+    </footer>
+
+</body>
+</html>
